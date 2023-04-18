@@ -16,3 +16,11 @@ export default {
     }
   }
 }
+
+</script>
+
+<template>
+  <div id="w-header">Prediction's timestamp: {{ myTS }}</div>
+  <div id="w-condition">Condition: {{ condition }}</div>
+  <div id="w-temperature">Temperature: {{ temp }}</div>  
+</template>
